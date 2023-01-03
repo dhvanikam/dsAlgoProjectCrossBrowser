@@ -9,7 +9,7 @@ import driverFactory.DriverFactory;
 import utilities.Loggerload;
 
 public class DataStructure {
-	public static WebDriver driver=DriverFactory.getdriver();
+	WebDriver driver=DriverFactory.getdriver();
 	
 	@FindBy (xpath="//a[@href='data-structures-introduction']")WebElement dataStrucIntroLink;
 	@FindBy (xpath="//a[@href='time-complexity']")WebElement timeComplexitylink;

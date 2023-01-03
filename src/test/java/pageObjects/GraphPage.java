@@ -15,7 +15,7 @@ import utilities.Loggerload;
 
 public class GraphPage {
 
-	public static WebDriver driver = DriverFactory.getdriver();
+	WebDriver driver = DriverFactory.getdriver();
 	ElementsUtils eleUtil = new ElementsUtils();
 
 	String homepage = ConfigReader.getHomePage();

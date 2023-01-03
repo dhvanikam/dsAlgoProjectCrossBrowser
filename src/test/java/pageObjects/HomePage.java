@@ -11,7 +11,7 @@ import utilities.Loggerload;
 
 public class HomePage {
 	
-	public static WebDriver driver=DriverFactory.getdriver();
+	WebDriver driver=DriverFactory.getdriver();
 	String URL=ConfigReader.getApplicationUrl();
 	String homeURL=ConfigReader.getHomePage();
 	

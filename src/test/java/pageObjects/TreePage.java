@@ -15,7 +15,7 @@ import utilities.Loggerload;
 
 public class TreePage {
 
-	public static WebDriver driver = DriverFactory.getdriver();
+	WebDriver driver = DriverFactory.getdriver();
 	ElementsUtils eleUtil = new ElementsUtils();
 	String tryEditorURL = ConfigReader.tryEditorURL();
 
