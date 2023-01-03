@@ -15,7 +15,7 @@ import utilities.Loggerload;
 
 public class QueuePage {
 
-	public static WebDriver driver = DriverFactory.getdriver();
+	WebDriver driver = DriverFactory.getdriver();
 	ElementsUtils eleUtil = new ElementsUtils();
 	String queueurl = ConfigReader.getQueueUrl();
 	String qpracquesurl = ConfigReader.getQPracQuesUrl();

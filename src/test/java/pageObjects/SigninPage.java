@@ -10,7 +10,7 @@ import utilities.ConfigReader;
 
 public class SigninPage {
 
-	public  static WebDriver driver=DriverFactory.getdriver();;
+	WebDriver driver=DriverFactory.getdriver();;
 	String loginURL=ConfigReader.getLoginPage();
 	boolean isRequired;
 	

@@ -16,7 +16,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import driverFactory.DriverFactory;
 
 public class ElementsUtils {
-	public static WebDriver driver = DriverFactory.getdriver();;
+	WebDriver driver = DriverFactory.getdriver();;
 	String Excelpath = ConfigReader.getexcelfilepath();
 	String code;
 	String result;
